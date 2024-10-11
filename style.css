@@ -1,0 +1,28 @@
+:root {
+    --text-color: #385462;
+    --text-color50: #38546280;
+    --text-color70: #385462B2;
+    --main-blue: #002B41;
+    --main-blue75: #002B41BF;
+    --main-blue50: #002B4180;
+    --main-blue20: #002B4133;
+    --blue: #EEF5FF;
+    --red: #FF3A35;
+    --liner: (#FF372A, #FF1514);
+    --white: (#FFFFFF, (border: 1px--20, #002B4133))
+
+    font-size: 62.5%;
+}
+
+h1 {
+    font-family: 'FormaDJRCyrillicDeckRegular';
+
+}
+
+@font-face {
+    src: url('./fonts/FormaDJRCyrillicDisplay-Regular-Testing.otf');
+    font-family: 'FormaDJRCyrillicDeckRegular';
+  }
+
+ 
+
