@@ -8,21 +8,131 @@
     --main-blue20: #002B4133;
     --blue: #EEF5FF;
     --red: #FF3A35;
-    --liner: (#FF372A, #FF1514);
-    --white: (#FFFFFF, (border: 1px--20, #002B4133))
+    --liner1: #FF372A;
+    --liner2: #FF1514;
+    --white: #FFFFFF;
 
     font-size: 62.5%;
 }
 
-h1 {
-    font-family: 'FormaDJRCyrillicDeckRegular';
-
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
 }
 
+a {
+    text-decoration: none;
+}
+
+
+h1 {
+    font-family: 'CyrillicDeckBold-mobile';
+    line-height: 1.1;
+    font-size: 4rem;
+    font-weight: bold;
+    color: var(--main-blue);
+}
+
+.up-section__map-link {
+    font-family: 'pantonrustscript';
+    color: color-mix(in oklab, var(--liner1) 100%, var(--liner2) 100%);
+}
+
+.up-section__blockquote {
+    font-family: 'CyrillicDeckRegular-mobile';
+    line-height: 1.44rem;
+    text-align: left;
+    color: var(--main-blue);
+    font-size: 1.2rem;
+    font-weight: 400; 
+}
+.record-button {
+    font-family: 'CyrillicDeckMedium-mobile';
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1.92rem;
+    /*убрать задний оранжевый*/
+    background-color: orangered;
+}
+.title {
+    font-family: 'CyrillicDeckBold-mobile';
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: var(--main-blue);
+}
+/*Только через colormix?*/
+.title__decorate {
+    font-family: 'pantonrustscript';
+    color: color-mix(in oklab, var(--liner1) 100%, var(--liner2) 100%);
+}
+.title_invisible {
+    display: none;
+}
+
+.article-section {
+    background-color: var(--blue);
+}
+
+.article-section__title1-3 {
+    font-family: 'CyrillicDeckMedium-mobile';
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.54rem;
+    color: var(--white);
+}
+
+.article-section__title2-4 {
+    font-family: 'CyrillicDeckMedium-mobile';
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.54rem;
+    color: var(--main-blue);
+}
+
+.article-section__item1-3 {
+    font-family: 'CyrillicDeckRegular-mobile';
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1.44rem;
+    color: var(--white);
+    background-color: var(--main-blue);
+}
+
+.article-section__item2-4 {
+    font-family: 'CyrillicDeckRegular-mobile';
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1.44rem;
+    color: var(--text-color);
+    background-color: var(--white);
+}
+.wrapper {
+    background-color: var(--white);
+}
+
+/*text12*/
 @font-face {
     src: url('./fonts/FormaDJRCyrillicDisplay-Regular-Testing.otf');
-    font-family: 'FormaDJRCyrillicDeckRegular';
-  }
-
+    font-family: 'CyrillicDeckRegular-mobile';
+}
+/*title*/
+@font-face {
+    src: url('./fonts/FormaDJRCyrillicDeck-Bold-Testing.ttf');
+    font-family: 'CyrillicDeckBold-mobile';
+}
+/*panton*/
+@font-face {
+    src: url('./fonts/ofont.ru_Panton\ Rust\ Script.ttf');
+    font-family: 'pantonrustscript';
+    font-size: 2.2rem;
+    font-weight: normal;
+}
+/*titleh3*/
+@font-face {
+    src: url('./fonts/FormaDJRCyrillicDeck-Medium-Testing.ttf');
+    font-family: 'CyrillicDeckMedium-mobile';
+}
  
 
