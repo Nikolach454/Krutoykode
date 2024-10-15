@@ -1,0 +1,433 @@
+/*text12*/
+@font-face {
+    src: url('./fonts/FormaDJRCyrillicDisplay-Regular-Testing.otf');
+    font-family: 'CyrillicDeckRegular-mobile';
+}
+/*title*/
+@font-face {
+    src: url('./fonts/FormaDJRCyrillicDeck-Bold-Testing.ttf');
+    font-family: 'CyrillicDeckBold-mobile';
+}
+/*panton*/
+@font-face {
+    src: url('./fonts/ofont.ru_Panton\ Rust\ Script.ttf');
+    font-family: 'pantonrustscript';
+}
+/*titleh3*/
+@font-face {
+    src: url('./fonts/FormaDJRCyrillicDeck-Medium-Testing.ttf');
+    font-family: 'CyrillicDeckMedium-mobile';
+}
+ 
+/*в чем задавать line-height*/
+
+:root {
+    --text-color: #385462;
+    --text-color50: #38546280;
+    --text-color70: #385462B2;
+    --main-blue: #002B41;
+    --main-blue75: #002B41BF;
+    --main-blue50: #002B4180;
+    --main-blue20: #002B4133;
+    --blue: #EEF5FF;
+    --red: #FF3A35;
+    --liner1: #FF372A;
+    --liner2: #FF1514;
+    --white: #FFFFFF;
+
+    /*шрифты*/
+
+    --medium-mobile: 'CyrillicDeckMedium-mobile';
+    --panton: 'pantonrustscript';
+    --bold-mobile: 'CyrillicDeckBold-mobile';
+    --regular-mobile: 'CyrillicDeckRegular-mobile';
+
+    font-size: 62.5%;
+    background-color: var(--blue);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+h1 {
+    font-family: 'CyrillicDeckBold-mobile';
+    line-height: 1.1;
+    font-size: 4rem;
+    font-weight: bold;
+    color: var(--main-blue);
+}
+
+.up-section__map-link {
+    font-family: 'pantonrustscript';
+    color: color-mix(in oklab, var(--liner1) 100%, var(--liner2) 100%);
+}
+
+.up-section__blockquote {
+    font-family: 'CyrillicDeckRegular-mobile';
+    line-height: 1.44rem;
+    text-align: left;
+    color: var(--main-blue);
+    font-size: 1.2rem;
+    font-weight: 400; 
+}
+.record-button {
+    font-family: 'CyrillicDeckMedium-mobile';
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1.92rem;
+    /*убрать задний оранжевый*/
+    background-color: orangered;
+}
+.title {
+    font-family: 'CyrillicDeckBold-mobile';
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: var(--main-blue);
+}
+/*Только через colormix?*/
+.title__decorate {
+    font-family: 'pantonrustscript';
+    color: color-mix(in oklab, var(--liner1) 100%, var(--liner2) 100%);
+}
+.title_invisible {
+    display: none;
+}
+
+.article-section {
+    
+}
+
+.article-section__title1-3 {
+    font-family: 'CyrillicDeckMedium-mobile';
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.54rem;
+    color: var(--white);
+}
+
+.article-section__title2-4 {
+    font-family: 'CyrillicDeckMedium-mobile';
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.54rem;
+    color: var(--main-blue);
+}
+
+.article-section__item1-3 {
+    font-family: 'CyrillicDeckRegular-mobile';
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1.44rem;
+    color: var(--white);
+    background-color: var(--main-blue);
+    border-radius: 2rem;
+}
+
+.article-section__item2-4 {
+    font-family: 'CyrillicDeckRegular-mobile';
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1.44rem;
+    color: var(--text-color);
+    background-color: var(--white);
+    border-radius: 2rem;
+}
+
+.our-section__logo {
+
+}
+
+.our-section__students {
+    font-family: var(--regular-mobile);
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1.44rem;
+    color: var(--text-color);
+    /*Нужен солид или другой параметр?*/
+    border: 1px solid var(--text-color50);
+    border-radius: 2rem;
+}
+
+.our-section__span {
+    font-family: var(--medium-mobile);
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 2.75rem;
+    color: var(--main-blue);
+}
+
+.our-section__info {
+    font-family: var(--regular-mobile);
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1.44rem;
+    color: var(--white);
+    background-color: var(--main-blue);
+    border-radius: 2rem;
+}
+
+.our-section__mini-title {
+    font-family: var(--medium-mobile);
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 2.75rem;
+}
+
+.blockquote {
+    font-family: var(--medium-mobile);
+    font-size: 2rem;
+    font-weight: normal;
+    line-height: 2.8rem;
+    color: var(--main-blue);
+}
+
+.our-win__article {
+    font-family: var(--regular-mobile);
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1.44rem;
+    color: var(--text-color);
+    background-color: var(--white);
+    border: 0.5rem solid var(--blue);
+    border-radius: 3rem;
+}
+
+/*скрытые карточки*/
+.our-win__article_invisible {
+    display: none;
+}
+
+.our-win__name-regard {
+    font-family: var(--medium-mobile);
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.98rem;
+    color: var(--main-blue);
+}
+
+.our-win__span {
+
+}
+
+.our-win__button {
+    font-family: var(--regular-mobile);
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1.44rem;
+}
+
+.our-win__button_active {
+    color: var(--main-blue);
+}
+
+.our-win__button_inactive {
+    color: var(--text-color50);
+}
+
+hgroup > p {
+    font-family: var(--regular-mobile);
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1.44rem;
+    color: var(--text-color);
+}
+
+hgroup > h3 {
+    font-family: var(--medium-mobile);
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 2.75rem;
+    color: var(--main-blue);
+}
+
+.about-course {
+
+}
+
+.about-course__item {
+    font-family: var(--regular-mobile);
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.1rem;
+    color: var(--text-color);
+}
+
+.about-course__quantity {
+    font-family: var(--medium-mobile);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.92rem;
+    color: var(--main-blue);
+}
+
+.tariff-info {
+
+}
+
+.tariff-info__item {
+    font-family: var(--regular-mobile);
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1.44rem;
+    color: var(--text-color);
+}
+
+del {
+    font-family: var(--regular-mobile);
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1.92rem;
+    color: var(--text-color);
+}
+
+ins {
+    font-family: var(--medium-mobile);
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 3rem;
+    color: var(--main-blue);
+    text-decoration: none;
+}
+
+.big-btn {
+    font-family: var(--bold-mobile);
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 1.92rem;
+    color: var(--white);
+    background-color: color-mix(in oklab, var(--liner1) 100%, var(--liner2) 100%);
+    border-radius: 10rem;
+}
+
+.discounts-section {
+    background-color: var(--white);
+}
+
+.discounts-article {
+    background-color: black;
+    border: 1rem solid var(--blue);
+    border-radius: 3rem;
+
+}
+
+.discounts-article__date {
+    font-family: var(--regular-mobile);
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1.44rem;
+    color: var(--white);
+}
+
+.discounts-article__item {
+    font-family: var(--regular-mobile);
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.44rem;
+    color: var(--white);
+}
+
+.form-section {
+
+}
+
+label, select, input {
+    font-family: var(--regular-mobile);
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.44rem;
+    color: var(--main-blue);
+    border: 0.1rem solid var(--text-color50);
+    border-radius: 10rem;
+}
+
+::-webkit-input-placeholder {
+    font-family: var(--regular-mobile);
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.44rem;
+    color: var(--main-blue75);
+}
+
+.form-section__text {
+    font-family: var(--regular-mobile);
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.44rem;
+    color: var(--main-blue);
+}
+
+.form-section__link {
+    font-family: var(--regular-mobile);
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.44rem;
+    color: color-mix(in oklab, var(--liner1) 100%, var(--liner2) 100%);
+}
+
+.map-contacts {
+
+}
+
+.map-contacts__item {
+    border-radius: 2.5rem;
+    background-color: var(--white);
+}
+
+.map-contacts__big-text {
+    font-family: var(--bold-mobile);
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.68rem;
+    color: var(--main-blue);
+}
+
+.map-contacts__text {
+    font-family: var(--regular-mobile);
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.44rem;
+    color: var(--main-blue);
+}
+
+.map-contacts__adress {
+    font-family: var(--regular-mobile);
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.44rem;
+    color: var(--text-color);
+}
+
+.footer-title {
+    font-family: var(--bold-mobile);
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.68rem;
+    color: var(--main-blue);
+}
+
+footer {
+    font-family: var(--regular-mobile);
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.44rem;
+    color: var(--main-blue);
+}
+
+.copyright {
+    color: var(--text-color);
+}
+.wrapper {
+    background-color: var(--white);
+}
+
+

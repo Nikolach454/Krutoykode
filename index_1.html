@@ -3,88 +3,97 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
+  <meta name="keywords" content="Серфинг, обучение, Москва">
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes">
+  <meta name="description"
+  content="Запись на занятия по серфингу">
   <title>Обучение серфингу-SURFTRAINCO</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <img src="" alt="Логотип SurfTrainCo">
-    <address>
-      <a href=""><img scr alt="Telegram"></a>
-      <a href=""><img scr alt="WhatsApp"></a>
-      <a href=""><img scr alt="Wiber"></a>
+  <header class="header">
+    <img src="#" alt="Логотип SurfTrainCo">
+    <nav class="burger-menu mobile-invisible">
+      <button class="burger-menu__botton"></button>
+      <ul> 
+        <li class="burger-menu__item"><a href="#about_us">О нас</a></li>
+        <li class="burger-menu__item"><a href="#win">Награды</a></li>
+        <li class="burger-menu__item"><a href="#tariff">Тарифы</a></li>
+        <li class="burger-menu__item"><a href="#discounts">Акции</a></li>
+        <li class="burger-menu__item"><a href="#rewiu">Отзывы</a></li>
+        <li class="burger-menu__item"><a href="#contacts">Контакты</a></li>
+      </ul>
+    </nav>
+    <address class="header__contact">
+      <a href="" class="social-media"><img src="#" alt="Telegram"></a>
+      <a href="" class="social-media"><img src="#" alt="WhatsApp"></a>
+      <a href="" class="social-media">><img src="#" alt="Viber"></a>
+      <a href="+7(910)684-90-53" class="mobile-number">+7 (910) 684-90-53</a>
     </address>
-    <a href="#map">ул,Черкизова 14,Москва</a> 
-     <h1>
-    Покоряй волны с нами
-     </h1>
-    <a href="#record">Онлайн запись</a>
+    <a href="" class="header__button">Подробнее</a>
   </header>
   <main>
-    <section>
-      <p>
+    <section class="up-section">
+      <a href="#map" class="up-section__map-link">ул.Черкизова 14,Москва</a> 
+      <h1 class="main-title">
+        Покоряйте <span class="main-title__decorate">волны</span> с нами
+      </h1>
+      <a href="#record" class="record-button record-button_round">Онлайн запись</a>
+      <p class="up-section__blockquote">
         SurfTrainCo предлагает вам доступное,
         комплексное и приятное обучение серфингу
         для всех уровней навыков и возрастов.
       </p>
+    </section>
+    <section class="article-section">
+      <h2 class="title title_invisible">Наши преймушества</h2>  
       <ol>
-        <li>
-          <article>
-            <img src="" alt="">
-            <h3>
-              Профессиональное руководство
-            </h3>
-            <p>
-              опытные инструкторы помогут вам освоить основы и быстро совершенствоваться.
-            </p>
-          </article>
+        <li class="article-section__item1-3">
+          <img src="#" alt="">
+          <h3 class="article-section__title1-3">
+            Профессиональное руководство
+          </h3>
+            опытные инструкторы помогут вам освоить основы и быстро совершенствоваться.
         </li>
-        <li>
-          <article>
-            <img src="" alt="">
-            <h3>
-              Качественное оборудование
-            </h3>
-            <p>
-              опытные инструкторы помогут вам освоить основы и быстро совершенствоваться.
-            </p>
-          </article>
+        <li class="article-section__item2-4">
+          <img src="#" alt="">
+          <h3 class="article-section__title2-4">
+            Качественное оборудование
+          </h3>
+            доски и гидрокостюмы помогут вам оставаться в безопасности и получать удовольствие.
         </li>
-        <li>
-          <article>
-            <img src="" alt="">
-            <h3>
-              Благоприятная обстановка
-            </h3>
-            <p>
-              благоприятная обстановка в обучении с людьми со схожим опытом и целями.
-            </p>
-          </article>
+        <li class="article-section__item1-3">
+          <img src="#" alt="">
+          <h3 class="article-section__title1-3">
+            Благоприятная обстановка
+          </h3>
+            благоприятная обстановка в обучении с людьми со схожим опытом и целями.
         </li>
-        <li>
-          <article>
-            <img src="" alt="">
-            <h3>
-              Дополнительные услуги
-            </h3>
-            <p>
-              услуги фотографий и видео помогут вам запечатлить и поделиться опытом серфинга
-            </p>
-          </article>
+        <li class="article-section__item2-4">
+          <img src="#" alt="">
+          <h3 class="article-section__title2-4">
+            Дополнительные услуги
+          </h3>
+            услуги фотографий и видео помогут вам запечатлить и поделиться опытом серфинга
         </li>
       </ol>
     </section>
-    <section>
-      <h2 id="about_us">
-        Серфинг - это стиль жизни
+    <section id="about_us" class="our-section">
+      <h2 class="title">
+        Серфинг - <span class="title__decorate">это стиль жизни</span>
       </h2>
-      <div>
-        <img src="" alt="Логотип SurfTrainCo">
-        <img src="" alt="Фотографии наших учеников">
-        <p id="rewiu">2000+ учеников</p>
-      </div>
-      <div>
-        <p>
-          SurfTrainCo-
+      <a href="" class="our-section__logo">
+        <img src="#" alt="Логотип SurfTrainCo">
+      </a>
+      <a href="" class="our-section__students">
+        <img src="#" alt="Фотографии наших учеников">
+        <span class="our-section__span">2000+</span> учеников
+      </a>
+      <a href="#record" class="record-button record-button_round">Онлайн запись</a>
+      <a href="" class="our-section__info">
+        <strong class="our-section__mini-title"> SurfTrainCo-</strong>
           компания по обучению серфингу. 
           расположенная в Москве, 
           которая открылось в 2018 году.
@@ -93,10 +102,11 @@
           всестороннее и приятное обучение 
           серфингу для всехуровней навыков
           и возрастов.
-        </p>
-      </div>
+      </a>
     </section>
-    <aside>
+    <section class="blockquote">
+      <h2 class="title title_invisible">Не бойтесь</h2>
+      <blockquote>
         <p>
           Не бойтесь испытать себя 
           и свои возможности - поддайтесь 
@@ -105,78 +115,73 @@
           <span>Погрузитесь в мир серфинга</span>
           и почувствуйте, как ваша жизнь
           наполняется яркими эмоциями и 
-          волнующими приключениями.<br>
+          волнующими приключениями.
           Погнали волну!
         </p>
       </blockquote>
-    </aside>
-    <section>
-      <h2 id="win">
-        Награды нашего клуба
-      </h2>
-      <div>
-        <img src="" alt="Фото победительницы">
-        <p>
-          Награда:
-        </p>
-        <p>
-          "Лучший инструктор по серфингу 2022"
-        </p>
-        <p>
-          от международной организации Sufers Against Sewage(SAS)
-        </p>
-        <p>
-          (2022)
-        </p>
-      </div>
     </section>
-    <section>
-      <h2 id="tarif">
-        Программы обучения
+    <section id="win" class="our-win">
+      <h2 class="title">
+        Награды <span class="title__decorate">нашего клуба</span>
       </h2>
-      <article>
+      <a href="" class="our-win__article">
+        <img src="#" alt="Фото победительницы">
+        Награда:
+        <strong class="our-win__name-regard">"Лучший инструктор по серфингу 2022"</strong>
+        от международной организации Sufers Against Sewage(SAS)
+        <span class="our-win__span">(2022)</span>
+      </a>
+      <a href="" class="our-win__article our-win__article_invisible">
+        <img src="#" alt="Наша команда">
+      </a>
+      <a href="" class="our-win__article our-win__article_invisible">
+        <strong class="our-win__name-regard">"За успешное продвижене серфинга</strong>
+      </a>
+      <buttom class="our-win__button our-win__button_active" type="button">2022</buttom>
+      <buttom class="our-win__button our-win__button_inactive" type="button">2021</buttom>
+      <buttom class="our-win__button our-win__button_inactive" type="button">2019</buttom>
+    </section>
+    <section id="tariff">
+      <h2 class="title">
+        Программы <span class="title__decorate">обучения</span>
+      </h2>
+      <article class="up-tariff">
         <!--надо див для картинки и зпголовков-->
-        <img src="" alt="Серфер">
-        <h3>
-          -тариф-
-        </h3>
-        <h4>
-          Flow Rider
-        </h4>
-        <p>
-          длительность курса <span>5 уроков</span> 
-        </p>
-        <p>
-          длительность урока <span>45 минут</span>
-        </p>
-        <ul>
-          <li>
-            <p>
+        <img src="#" alt="Серфер">
+        <hgroup>
+          <p>-тариф-</p>
+          <h3>Flow Rider</h3>
+        </hgroup>
+        <div class="about-course">
+          <img src="#" alt="Календарь">
+          <p class="about-course__item">
+            длительность курса <span class="about-course__quantity">5 уроков</span> 
+          </p>
+          <img src="#" alt="Секундомер">
+          <p class="about-course__item">
+            длительность урока <span class="about-course__quantity">45 минут</span>
+          </p>
+        </div>
+        <ul class="tariff-info">
+          <li class="tariff-info__item">
             Напор воды, направленный 
             вверх по натянутой тканевой 
             поверхности
-            </p>
           </li>
-          <li>
-            <p>
+          <li class="tariff-info__item">
               Доска без плавников, нечто 
               среднее между скейтбордом 
               и сноубордом
-            </p>
           </li>
-          <li>
-            <p>
+          <li class="tariff-info__item">
               Даёт возможность развить баланс 
               и получить яркие эмоции от 
               катания на волне
-            </p>
           </li>
-          <li>
-            <p>
+          <li class="tariff-info__item">
               Возможность поймать удовольствие 
               от движения и маневрирования 
               на доске по водному потоку 
-            </p>
           </li>
         </ul>
         <p>
@@ -184,103 +189,95 @@
           <ins>10990руб.</ins>
         </p>
       <!--как сделать чтобы тариф выбирался сам-->  
-        <a href="#record">
+        <a href="#record" class="big-btn">
           Выбрать тариф
         </a>
       </article>
-    <article>
+      <article class="down-tariff">
       <!--надо див для картинки и зпголовков-->
-        <h3>
-          -тариф-
-        </h3>
-        <h4>
-          Easy Start
-        </h4>
-        <div>
-          <img src="" alt="Календарь">
-          <p>
-            длительность курса <span>5 уроков</span> 
+        <img src="#" alt="Серфер">
+        <hgroup>
+          <p>-тариф-</p>
+          <h3>Easy Start</h3>
+        </hgroup>
+        <div class="about-course">
+          <img src="#" alt="Календарь">
+          <p class="about-course__item">
+            длительность курса <span class="about-course__quantity">5 уроков</span> 
           </p>
-          <img src="" alt="Секундомер">
-          <p>
-            длительность урока <span>45 минут</span>
+          <img src="#" alt="Секундомер">
+          <p class="about-course__item">
+            длительность урока <span class="about-course__quantity">45 минут</span>
           </p>
         </div>
-        <ul>
-          <li>
-            <p>
+        <ul class="tariff-info">
+          <li class="tariff-info__item">
               Воссозданный искусственный 
               речной порог
-            </p>
           </li>
-          <li>
-            <p>
+          <li class="tariff-info__item">
               Доска с плавниками, 
               как на океане
-            </p>
           </li>
-          <li>
-            <p>
+          <li class="tariff-info__item">
               Даёт возможность отработать технику
               поворотов, трюки на волне, развить 
               баланс и мышечную память
-            </p>
           </li>
-          <li>
-            <p>
+          <li class="tariff-info__item">
               Помогает подготовиться к катанию 
               на окванских волнах (работа тела 
               после поп-ап)
-            </p>
           </li>
         </ul>
         <p>
           <del>29000руб</del>
           <ins>12990руб.</ins>
         </p>
-        <a href="#record">
+        <a href="#record" class="big-btn">
           Выбрать тариф
         </a>
       </article>
     </section>
-    <section>
-      <h2 id="skidki">
-        Акции и скидки
+    <section id="discounts" class="discounts-section">
+      <h2 class="title">
+        Акции <span class="title__decorate">и скидки</span>
       </h2>
-      <div>
-        <p>
+      <div class="discounts-article">
+        <p class="discounts-article__date">
           До 25.04.2024
         </p>
-        <img src alt="Фото серфинг">
-        <a>
+        <a href="" class="discounts-article__item">
+          <img src="#" alt="Фото серфинг">
           Бесплатный урок серфинга для 
           первого посещения
         </a>
       </div>
-      <div>
-        <p>
+      <div class="discounts-article">
+        <p class="discounts-article__date">
           Бессрочно
         </p>
-        <img scr alt="">
-        <a>
+        <a href="" class="discounts-article__item">
+          <img src="#" alt="Сертификаты">
           Сертификачия или атестация 
           по окончании курса
         </a>
       </div>
-      <div>
-        <p>
+      <div class="discounts-article">
+        <p class="discounts-article__date">
           До 12.05.2024
         </p>
-        <img scr alt="">
-        <a>
+        <a href="" class="discounts-article__item">
+          <img src="#" alt="Улыбчатые люди">
           Пакет серфинга для своих
         </a>
       </div>
-      <a href="s">
+      <a href="s" class="big-btn">
         Показать больше
       </a>
     </section>
-    <aside>
+    <section class="blockquote">
+      <h2 class="title title_invisible">Новые возможности</h2>
       <blockquote>
         <p>
           Помните, что каждый ваш выход 
@@ -292,100 +289,90 @@
           каждым мгновением на доске.
         </p>
       </blockquote>
-    </aside>
-    <section>
-      <h3 id="record">запись на занятие</h3>
-      <form>
-        <ul>
-        <li>
-           <label for="choose_id">Выберите дату<input type="date" id="choose_id"></label>
-        </li>
-        <li>
-          <label for="choose_time">Выберите время<input type="time" name="" id="choose_time"></label>
-        </li>
-        <li>
-          <select>
-            <option value="">Выберите тариф</option>
-            <option value="tarif_flowrider">Flow Rider</option>
-            <option value="tarif_easystart">Easy Srart</option>
-          </select>
-        </li>
-        <li>
-          <input
-            placeholder="Алексей Иванилов"
-          >
-        </li>
-        <li>
-          <input
-            placeholder="8(999)999-99-99"
-          >
-        </li>
-        <li>
-          <button>Записаться онлайн</button>
-        </li>
-        <li>
-          <p>Нажимая на кнопку,вы соглашаетесь<br>
-            <a href="">с политикой обработки данных</a>
-          </p>
-        </li>
-      </ul>
-      </form>
     </section>
-    <addres>
-      <h2 id="map">
-        Мы на карте
-        где искать?
+    <section id="record" class="form-section">
+      <h2 class="title">
+        Запись <span class="title__decorate">на занятие</span>
       </h2>
-       <ul>
-         <li>
-           <p>ул,Черкизовская 14,<br>Москва</p>
-           <p><span>Как добраться?</span><br>Маршруты:139,286</p>
-         </li>
-         <li>
-           <p>Социальные сети:</p>
-           <a><img src alt="Instagram"></a>
-           <a><img src alt="TikTok"></a>
-           <a><img src alt="VK"></a>
-         </li>
-         <li>
-           <p>+7(910)684-90-53</p>
-           <a><img src alt="Telegram"></a>
-           <a><img src alt="WhatsApp"></a>
-           <a><img src alt="Wiber"></a>
-         </li>
-       </ul>
-     </addres>
+      <form>
+        <label for="choose_id">Выберите дату</label>
+        <input type="date" id="choose_id" required>
+       <label for="choose_time">Выберите время</label>
+       <input type="time" name="" id="choose_time" required>
+       <select>
+         <option value="">Выберите тариф</option>
+         <option value="tarif_flowrider">Flow Rider</option>
+         <option value="tarif_easystart">Easy Srart</option>
+       </select>
+       <input placeholder="Алексей Иванилов" required>
+       <input placeholder="8(999)999-99-99" required>
+       <!--убрать big-btn наверное-->
+       <button type="submit" class="big-btn">Записаться онлайн</button>
+      </form>
+      <p class="form-section__text">Нажимая на кнопку,вы соглашаетесь</p>
+      <a href="" class="form-section__link">с политикой обработки данных</a>
+    </section>
+    <section id="map">
+      <!--нужен ли тег для картинки на фоне или через css-->
+      <h2 class="title">
+        Мы на карте <span class="title__decorate">где искать?</span>
+      </h2>
+      <img src="#" alt="наше местоположение">
+      <addres>
+         <ul class="map-contacts">
+           <li class="map-contacts__item">
+             <a href="https://yandex.ru/maps/-/CDXnIII7" class="map-contacts__text">ул.Черкизовская 14,Москва</a>
+            <strong class="map-contacts__big-text">Как добраться?</strong><p class="map-contacts__adress">Маршруты:139,286</p>
+           </li>
+           <li>
+            <a href="#record" class="record-button record-button_round">Онлайн запись</a>
+           </li>
+           <li class="map-contacts__item">
+             <strong class="map-contacts__big-text">Социальные сети:</strong>
+             <a><img src="#" alt="Instagram"></a>
+             <a><img src="#" alt="TikTok"></a>
+             <a><img src="#" alt="VK"></a>
+           </li>
+           <li class="map-contacts__item">
+             <a href="+7(910)684-90-53" class="map-contacts__big-text">+7(910)684-90-53</a>
+             <a><img src="#" alt="Telegram"></a>
+             <a><img src="#" alt="WhatsApp"></a>
+             <a><img src="#" alt="Viber"></a>
+           </li>
+         </ul>
+       </addres>
+    </section>
   </main>
   <footer>
-    <nav>
-      <h3>
-        Для клиентов
-      </h3>
-      <ul>
-        <li><a href="#about_us">О нас</a></li>
-        <li><a href="#win">Награды</a></li>
-        <li><a href="#tarif">Тарифы</a></li>
-        <li><a href="#skidki">Акции</a></li>
-        <li><a href="#rewiu">Отзывы</a></li>
-        <li><a href="#contacts">Контакты</a></li>
-      </ul>
-    </nav>
-    <address id="contacts">
-      <h3>
-        Контакты
-      </h3>
-      <ul>
-        <li>+7(910)684-90-53</li>
-        <li><a>SurfTrain@yandex.ru</a></li>
-        <li>г.Москва,ул.Черкизова 14</li>
-        <li>Работаем с 8:00-22:00</li>
-      </ul>
-    </address>
-    <img alt="Логотип SurfTrainCo">
-    <div>
-      <a>Политика конфиденциальности</a>
-      <p>Публичная оферта</p>
-      <p>&copy;SurfTrainCo,2023</p>
+    <div class="wrapper">
+      <nav>
+        <h3 class="footer-title">
+          Для клиентов
+        </h3>
+        <ul>
+          <li><a href="#about_us">О нас</a></li>
+          <li><a href="#win">Награды</a></li>
+          <li><a href="#tariff">Тарифы</a></li>
+          <li><a href="#discounts">Акции</a></li>
+          <li><a href="#rewiu">Отзывы</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+      <address id="contacts">
+        <h3 class="footer-title">Контакты</h3>
+        <ul>
+          <li><a href="+7(910)684-90-53">+7(910)684-90-53</a></li>
+          <li><a>SurfTrain@yandex.ru</a></li>
+          <li><a href="#map">г.Москва,ул.Черкизова 14</a></li>
+          <li>Работаем с 8:00-22:00</li>
+        </ul>
+      </address>
+      <img alt="Логотип SurfTrainCo">
+      <div class="copyright">
+        <a>Политика конфиденциальности</a>
+        <a href="">Публичная оферта</a>
+        <span>&copy;SurfTrainCo,2023</span>
+      </div>
     </div>
   </footer>
 </body>
